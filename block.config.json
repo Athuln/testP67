@@ -1,0 +1,22 @@
+{
+  "name": "todoContainer",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/Athuln/testP67.git",
+    "ssh": "git@github.com:Athuln/testP67.git",
+    "branch": "block_todoContainer"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "iFBgv38whme-2FgjG8lie",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "xH-z9vPBJT8AAfyzN-D4y"
+  ]
+}
