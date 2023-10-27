@@ -2,8 +2,8 @@
   "name": "testP67",
   "type": "package",
   "source": {
-    "https": null,
-    "ssh": null,
+    "https": "https://github.com/Athuln/testP67.git",
+    "ssh": "git@github.com:Athuln/testP67.git",
     "branch": "block_testP67"
   },
   "dependencies": {
