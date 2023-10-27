@@ -1,0 +1,22 @@
+{
+  "name": "todoItem",
+  "type": "ui-elements",
+  "source": {
+    "https": "",
+    "ssh": "",
+    "branch": "block_todoItem"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npx webpack",
+  "postPull": "npm i",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "sX1rvGqKn7VlCNfkxxcFj",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "xH-z9vPBJT8AAfyzN-D4y"
+  ]
+}
