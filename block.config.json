@@ -1,0 +1,22 @@
+{
+  "type": "function",
+  "source": {
+    "https": "https://github.com/Athuln/testP67.git",
+    "ssh": "git@github.com:Athuln/testP67.git",
+    "branch": "block_removeTodo"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "name": "removeTodo",
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "blockId": "sQb2HqGarKW7WlbQ9pVw-",
+  "isPublic": true,
+  "repoType": "mono",
+  "parentBlockIDs": [
+    "xH-z9vPBJT8AAfyzN-D4y"
+  ]
+}
